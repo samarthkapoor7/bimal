@@ -3,13 +3,13 @@ import React from "react";
 
 const Card = () => {
     return (
-        <div className="w-full h-full bg-lime-100 rounded-2xl flex flex-col md:flex-row items-center justify-center p-6 gap-12">
+        <div className=" group w-full h-full bg-lime-100 rounded-2xl flex flex-col md:flex-row items-center justify-center p-6 gap-12">
             <Image 
                src="/card-image.png"
                alt="Card Image"
                width={270}
                height={270}
-               className="object-contain"
+               className=" group-hover:-translate-y-3 transition-all duration-300 object-contain"
             />
             <div className="flex flex-col gap-6">
                 <div className="flex flex-col">
