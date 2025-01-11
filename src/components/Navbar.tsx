@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className="max-w-7xl mx-auto py-4 px-4 flex justify-between items-center">
             <Link href="/">
-               <h1 className="text-2xl font-extrabold text-lime-500 tracking-tighter">
+               <h1 className="text-2xl font-extrabold text-lime-900 tracking-tighter">
                 bimal
                </h1>
             </Link>
